@@ -18,23 +18,23 @@ Formador / Desarrollador Web FullStack
 
 ## Alumnos
 
-1. Jose Luis
-2. Eduardo
-3. Beatriz
-4. Daniel Alexis
-5.
+1. [Rocio Liliana de la Torre Fanin](https://github.com/RocioLdlT)
+2. [Eduardo Yeves Estévez](https://github.com/Yevestevez)
+3. [Beatriz López León](https://github.com/BeatrizLL83)
+4. [Daniel Alexis Soledad LLatas](https://github.com/DaAlexis24)
+5. [Johandri Garcia Peréz](https://github.com/jnebrijabasededatos-hub)
 
-6. Juan Carlos
-7. Rocio
-8. Aranzazu
-9. Jefferson
-10. Maria Victoria
-11. Ronny Alexander
+6. ***
+7. ***
+8. [Jefferson Steven Espitia Flórez](https://github.com/Jefferespitia)
+9. [Daniel Saigua Labre](https://github.com/daniel48saigua)
+10. [Aranzazu Checa Alvaro](https://github.com/ArantxaCheca)
 
-12. Evgeniya
-13. Serigne Modou
-14.
-15. Juan Manuel
+11. [Jesmy Sarai Romay Cedeño](https://github.com/)
+12. [Serigne Modou Fall Belle](https://github.com/MODOU19999)
+13. [Ronny Alexander Pin Pincay](https://github.com/ronnyaalez)
+14. ***
+15. [Juan Manuel García del Totro](https://github.com/juanmatoro)
 
 ## Skill
 
@@ -154,7 +154,7 @@ Ejercicios de introducción a JS: bloque 2
 
 ## Semana 3 (Enero)
 
-<!-- ### Dia 1 (L 26/01/2026) - M1.U1 01
+### Dia 1 (L 26/01/2026) - M1.U1 01
 
 - Lenguajes de marcado: HTML
 
@@ -163,13 +163,15 @@ Ejercicios de introducción a JS: bloque 2
 - Conceptos - Validación
 - UX - Accesibilidad - SEO - WPO
 
+[Descanso]
+
+- body -> principales etiquetas
 - Ejemplo inicial - ejercicio
-- head -> metadata, title, links (favicon)
-- body -> principales etiquetas -->
 
 <!-- ### Dia 2 (M 27/01/2026) - M1.01 02
 
 - Continuamos el ejemplo inicial
+- head -> metadata, title, links (favicon)
 
 - Estructura del estándar HTML
 
