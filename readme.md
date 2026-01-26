@@ -151,3 +151,77 @@ Ejercicios de introducción a JS
 - Métodos de strings
 
 Ejercicios de introducción a JS: bloque 2
+
+## Semana 3 (Enero)
+
+<!-- ### Dia 1 (L 26/01/2026) - M1.U1 01
+
+- Lenguajes de marcado: HTML
+
+- Entorno: VSC (Extensiones) - Chrome
+
+- Conceptos - Validación
+- UX - Accesibilidad - SEO - WPO
+
+- Ejemplo inicial - ejercicio
+- head -> metadata, title, links (favicon)
+- body -> principales etiquetas -->
+
+<!-- ### Dia 2 (M 27/01/2026) - M1.01 02
+
+- Continuamos el ejemplo inicial
+
+- Estructura del estándar HTML
+
+- Sectioning v. grouping
+
+- Sectioning levels:
+  - headings (implícito)
+  - etiquetas semánticas (explícitas) -->
+
+<!-- ### Dia 3 (X 28/01/2026) - M1.01 03
+
+- Etiquetas de sección y agrupamiento
+
+- Ejercicio: Construcción de una Web de recetas por todos los alumnos
+
+  - Creación de un repo privado con acceso a todos
+  - Protección de la main y política de ramas
+  - Creación de una GitHub page
+  - Clonado por cada alumno
+  - Creación de una rama para cada grupo (por 1 alumno del grupo)
+  - Fetch de las ramas y acceso a la rama asignada
+  - Inicio del trabajo individual -->
+
+<!-- ### Dia 4 (J 29/01/2026) - M1.01 04
+
+- Continuación del ejercicio
+
+  - Trabajo individual en cada receta
+  - Uso de PRs para incorporar el trabajo a Main
+  - Comprobación del proceso CI/CD
+
+- Corrección del trabajo hasta ahora
+
+  - Falta integración de elementos comunes (header, footer)
+  - Ajuste de main a su verdadera funcionalidad
+
+- Etiquetas Text-Level
+- Etiquetas de enlace
+- Elementos embebidos -->
+
+<!-- ### Dia 5 (V 30/01/2026) - M1.01 05
+
+- Elementos embebidos (iframe)
+- Tablas
+- Formularios
+- Etiquetas interactivas (details/summary, dialog)
+
+- Continuación del ejercicio:
+  - Correcciones indicadas
+  - Revisión de metadatos
+  - Opción: listas de definiciones, blockquote...
+  - Incorporación de elementos text-level: strong...
+  - Incorporación de Vídeo
+  - Opción: Uso de una tabla para indicar los ingredientes
+  - Formulario de contacto -->
