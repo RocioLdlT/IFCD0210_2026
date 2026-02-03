@@ -1,0 +1,39 @@
+a:hover::after {
+    content: '👍';
+}
+
+section {
+    position: relative;
+}
+
+section::after {
+    content: '';
+    background-color: rgba(137, 43, 226, 0.32);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* summary::marker, li::marker  */
+:is(summary, li)::marker {
+    color: brown;
+    font-size: 1.3rem;
+}
+
+section[aria-label="uno"] {
+    display: none;
+}
+
+section[aria-label="uno"]:target {
+    display: block;
+    border: 2px solid gainsboro;
+}
+
+section[aria-label="sample"]  {
+    p::first-line {
+        font-weight: bold;
+    }
+}
