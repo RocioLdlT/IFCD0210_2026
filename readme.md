@@ -62,6 +62,19 @@ Formador / Desarrollador Web FullStack
 
 ## Previsión de días
 
+- Modulo 1: __36__ 31 días
+  - Previo Presentación/Git: 3 días
+  - Previo JS: 5 días
+  - Unidad 1: 12 días (deberían haber sido 10)
+  - Unidad 2: 9 días (5 días cedidos a previo JS + 2 cedidos HTML/CSS) = __18__ 16 días programados
+  - Unidad 3: 2 días (3 días de cedidos a previo git) = __6__ 5 días programados
+  - Total: __36__  31 días
+- Modulo 2: __48__ 42 días
+  - JS server. OOP. NodeJS: __18__ 16 días
+  - DB. Modelos. SQL. Mongo: __18__ 16 días
+  - Aplicaciones Web. __12__ 10 días
+- Modulo 3: __18__ 15 días
+
 ## Semana 1 (Enero)
 
 ### Día 1 (X - 14/01/2026) - Git 01
@@ -72,7 +85,7 @@ Formador / Desarrollador Web FullStack
   - Visual Studio Code
   - NVM: NodeJS y npm
 
-### Día 2 (J - 15/01/2026) - Git 01
+### Día 2 (J - 15/01/2026) - Git 02
 
 - Instalación de herramientas (continuación)
   - Git
@@ -93,7 +106,7 @@ Formador / Desarrollador Web FullStack
   - Push
   - Clonar repositorio. Forks
 
-### Día 3 (V - 16/01/2026) - Git 02
+### Día 3 (V - 16/01/2026) - Git 03
 
 - Git. Continuación
   - Ramas
@@ -238,7 +251,7 @@ Ejercicios de introducción a JS: bloque 2
 
 ## Semana 4 (Febrero)
 
-### Día 1 (02/02/2026) - M1.01 06
+### Día 1 (L 02/02/2026) - M1.01 06
 
 - CSS
   - Referencias
@@ -248,7 +261,7 @@ Ejercicios de introducción a JS: bloque 2
   - Selectores: ejercicios
   - Cascada: especificidad y herencia
 
-### Día 2 (03/02/2026) - M1.01 07
+### Día 2 (M 03/02/2026) - M1.01 07
 
 - Cascada: especificidad y herencia: Ejercicios
 - Pseudo-clases y pseudo-elementos
@@ -263,7 +276,7 @@ Ejercicios de introducción a JS: bloque 2
     - variables: paleta colores, escala, tipografías
     - css base
 
-### Día 3 (04/02/2026) - M1.01 08
+### Día 3 (X 04/02/2026) - M1.01 08
 
 - Unidades
   - Valores sin unidad
@@ -276,7 +289,7 @@ Ejercicios de introducción a JS: bloque 2
   - object-fit
 - Layouts: Displays tradicionales / Float
 
-### Día 4 (05/02/2026) - M1.01 09
+### Día 4 (J 05/02/2026) - M1.01 09
 
 - Layouts
   - Revisión del Box-Model
@@ -288,7 +301,7 @@ Ejercicios de introducción a JS: bloque 2
     - Menu
     - Iconos de redes sociales
 
-### Día 5 (06/02/2026) - M1.01 10
+### Día 5 (V 06/02/2026) - M1.01 10
 
 - web "realista": porfolio
   - Iconos svg
@@ -302,7 +315,7 @@ Ejercicios de introducción a JS: bloque 2
 
 ## Semana 5 (Febrero)
 
-### Día 1 (09/02/2026) - M1.01 11
+### Día 1 (L 09/02/2026) - M1.01 11  (M1.02 01)
 
 - Layouts
   - Grid: web "realista": porfolio
@@ -333,7 +346,7 @@ Ejercicios de introducción a JS: bloque 2
   - Filtros
   - Mezclas (Blends)
 
-- ### Día 2 (10/02/2026) - M1.01 12
+### Día 2 (M 10/02/2026) - M1.01 12 (M1.02 02)
 
 - RWD Ejemplo
   - Responsive Nav
@@ -346,4 +359,124 @@ Ejercicios de introducción a JS: bloque 2
   - Transiciones y animaciones
   - Animaciones con scroll
 
-<!-- ### Día 3 (11/02/2026) - M1.02 ?? -->
+### Día 3 (X 11/02/2026) - M1.02 03 
+
+- Regreso a JS
+- JS: Modelo mental
+  - Variables y datos
+  - Objetos
+  - Asignación vía variables
+  - Mutabilidad v. inmutabilidad
+- JS en la Web. Ejemplo HTML "Saludos"
+  - DOM
+  - Acceso secuencial
+  - Acceso directo: get v. query
+
+### Día 4 (J 12/02/2026) - M1.02 04
+
+- Revisión: Modelo Mental
+- Proyecto: Tres en raya
+- Modificación de elementos del DOM
+
+### Día 5 (V 13/02/2026) - M1.02 05
+
+- Revisión de conceptos: funciones
+  - Parámetros, atributos, callbacks
+- Proyecto: Tres en raya
+  - Cambios en el HTML
+  - Atributos
+  - Clases del HTML
+  - Eventos -> callbacks
+
+## Semana 6 (Febrero)
+
+### Día 1 (L 16/02/2026) - M1.02 06
+
+- Revisión de conceptos: métodos de array
+  - Mutables: push, sort
+  - Inmutables: toSorted, forEach, map, filter, find
+  - Ejercicio: implementar los métodos de arrays / strings
+    (ejemplos: myLength, myPush)
+- Proyecto: Tres en raya
+  - Comprobar el ganador: uso de arrays
+  - Formularios: input básico
+  - Challenge: Quiz
+
+### Día 2 (M 17/02/2026) - M1.02 07
+
+- JSON: stringify / parse
+- Code review del challenge
+
+- Guía estilo
+- Formularios
+  - Obtención de datos
+  - Validaciones nativas de HTML
+  - Validaciones custom
+
+### Día 3 (X 18/02/2026) - M1.02 08
+
+- Enrutamiento (routing)
+  - Rutas relativas a origen / a documento
+  - root en el servidor web
+  - carga de JS basada en location.path
+- Componentes
+  - template strings de HTML
+  - element.insertAdjacentHTML
+  - componentes funcionales
+
+### Día 4 (J 19/02/2026) - M1.02 09
+
+- CRUD basado en componentes: ToDo List
+  - Concepto de Entidad (Modelo)
+  - Mock de datos: servicio para la importación desde JSON
+  - Página tasks y su ruta
+  - Componente task-cards: array de datos
+  - Componente card: parámetros
+  - Delete: función como parámetro
+
+### Día 5 (V 20/02/2026) - M1.02 10
+
+- Final del CRUD: add y update, funciones como parámetros
+- Asincronía en JS
+  - Conceptos
+  - Callbacks. Timeouts
+  - Promesas
+  - Async / await
+- Gestión de errores
+- APIs REST -> json
+
+- AJAX. xmlHttpRequest (XHR)
+  - Desde el código <https://pokeapi.co/api/v2/pokemon/ditto>
+  - fetch (Browser, Node)
+
+## Semana 7 (Febrero)
+
+### Día 1 (L 23/02/2026) - M1.03 01
+
+- Accesibilidad / UX
+  - Concepto general
+  - Accesibilidad en la web. Tecnologías asistivas
+  - Estándares: WAI del W3C
+    - Niveles de accesibilidad
+    - Pautas WCAG 2
+  - Elementos de accesibilidad
+    - HTML
+    - CSS
+
+### Día 2 (M 24/02/2026) - M1.03 02
+
+- Accesibilidad / UX
+  - WAI - ARIA. Roles y propiedades
+  - Tools
+
+### Día 3 (X 25/02/2026) - M1.02 11
+
+Examen (1)
+
+------------------
+
+### Día 4 (J 26/02/2026) - M2.01 01
+
+Examen (2)
+
+### Día 5 (V 27/02/2026) - M2.01 02
