@@ -359,18 +359,26 @@ Ejercicios de introducción a JS: bloque 2
   - Transiciones y animaciones
   - Animaciones con scroll
 
-### Día 3 (X 11/02/2026) - M1.02 03 
+### Día 3 (X 11/02/2026) - M1.02 03
 
+- Conceptos de Arquitectura Web y Navegadores
 - Regreso a JS
 - JS: Modelo mental
   - Variables y datos
   - Objetos
   - Asignación vía variables
   - Mutabilidad v. inmutabilidad
+- Ejercicio: Piedra papel o tijeras
+
+[Descanso]
+
 - JS en la Web. Ejemplo HTML "Saludos"
+  - Acceso al script
   - DOM
   - Acceso secuencial
   - Acceso directo: get v. query
+  - Modificación de los elementos  
+  - Eventos -> callbacks
 
 ### Día 4 (J 12/02/2026) - M1.02 04
 
