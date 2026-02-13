@@ -8,8 +8,10 @@ const handleChange = (event) => {
 
 const handleDialogMenu = (event) => {
     console.log("Click", event);
+
+
     const menuDialogElement = document.querySelector("#menu-dialog");
-    if (event.target.localName === "svg") {
+    if (event.currentTarget.localName === "a") {
         event.preventDefault();
         menuDialogElement.showModal();
     } else {
