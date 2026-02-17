@@ -1,19 +1,21 @@
 export let theme = "light";
 
 const navigate = (url = "") => {
+    console.log("URL", url);
+    history.pushState({}, null, url);
     let path = url.split("/").pop();
-    history.pushState({}, null, path)
-    if(!path) path = 'home'
+    if (!path) path = "home";
+    console.log("Path", path);
     // console.log("navegando a " + path);
-    const sectionElements = document.querySelectorAll('main>section')
+    const sectionElements = document.querySelectorAll("main>section");
     // console.log(sectionElements)
-    sectionElements.forEach(section =>{
+    sectionElements.forEach((section) => {
         if (section.id === path) {
-            section.hidden = false
+            section.hidden = false;
         } else {
-            section.hidden = true
+            section.hidden = true;
         }
-    })
+    });
 };
 
 const handleChange = (event) => {
@@ -32,17 +34,38 @@ const handleDialogMenu = (event) => {
     // console.log('Target')
     // console.dir(target)
     const menuDialogElement = document.querySelector("#menu-dialog");
-    event.preventDefault();
     if (current.localName === "a") {
+        event.preventDefault();
         menuDialogElement.showModal();
-    } else {
+    } else if (current.localName === "menu") {
+        event.preventDefault();
         navigate(event.target.href);
+        menuDialogElement.close();
+    } else {
         menuDialogElement.close();
     }
 };
 
+const handleContact = (event) =>  {
+    event.preventDefault()
+
+    const target = event.target
+    console.log('Target')
+    console.dir(target.elements)
+
+    console.log('Enviando...')
+
+}
+
 export function main() {
     console.log("Loaded main");
+    navigate(location.pathname);
+
+    window.addEventListener("popstate", (event) => {
+        console.log(location.path);
+        navigate(location.pathname);
+    });
+
     // Theme
     const toggleElement = document.querySelector("#theme-toggle");
     toggleElement.addEventListener("change", handleChange);
@@ -56,4 +79,9 @@ export function main() {
     menuDialogElement.addEventListener("click", handleDialogMenu);
 
     document.body.addEventListener("click", handleDialogMenu);
+
+    // Formulario
+
+    document.querySelector('#contact form')
+    .addEventListener('submit', handleContact)
 }
