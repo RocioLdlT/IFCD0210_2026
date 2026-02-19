@@ -1,8 +1,32 @@
+import { navigate } from "../main.js";
+
+const handleDialogMenu = (event) => {
+    console.log("Click", event);
+    const current = event.currentTarget;
+    const target = event.target;
+    event.stopPropagation();
+    console.log("Current");
+    console.dir(current);
+    console.log("Target");
+    console.dir(target);
+    const menuDialogElement = document.querySelector("#menu-dialog");
+    if (current.localName === "a") {
+        event.preventDefault();
+        menuDialogElement.showModal();
+    } else if (current.localName === "menu") {
+        event.preventDefault();
+        navigate(event.target.href);
+        menuDialogElement.close();
+    } else {
+        menuDialogElement.close();
+    }
+};
+
 export const menu = (menuOptions) => {
     const selector = "app-menu";
-    const setTemplate = (menuClass) => {
+    const setTemplate = (menuClass = "") => {
         if (menuClass === "mobile-menu") {
-            return `<menu class="mobile-menu">
+            return `<menu class="menu mobile-menu">
             <li>
             <a href="#" id="menu-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor">
@@ -16,8 +40,8 @@ export const menu = (menuOptions) => {
         }
 
         return `
-            <menu class="${menuClass}">
-                ${menuOptions.map(option => `<li><a href="${option.path}">${option.label}</a></li>`).join('')}
+            <menu class="menu ${menuClass}">
+                ${menuOptions.map((option) => `<li><a href="${option.path}">${option.label}</a></li>`).join("")}
             </menu>
             `;
     };
@@ -26,5 +50,16 @@ export const menu = (menuOptions) => {
 
     elements.forEach(
         (element) => (element.outerHTML = setTemplate(element.dataset.type)),
+    );
+
+    document.body.addEventListener("click", handleDialogMenu);
+
+    const menuIconElement = document.querySelector("#menu-icon");
+    menuIconElement.addEventListener("click", handleDialogMenu);
+    // const menuDialogElement = document.querySelector("#menu-dialog menu");
+
+    const menuDialogElements = document.querySelectorAll("menu");
+    menuDialogElements.forEach((menuElement) =>
+        menuElement.addEventListener("click", handleDialogMenu),
     );
 };

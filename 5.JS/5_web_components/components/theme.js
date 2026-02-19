@@ -1,3 +1,11 @@
+const handleChange = (event) => {
+    const element = event.target;
+    themeColor = element.checked ? "dark" : "light";
+    console.log(themeColor);
+};
+
+export let themeColor = "light";
+
 export const theme = () => {
     const selector = "app-theme";
 
@@ -7,4 +15,7 @@ export const theme = () => {
         </label>`;
 
     document.querySelector(selector).outerHTML = setTemplate();
+
+    const toggleElement = document.querySelector("#theme-toggle");
+    toggleElement.addEventListener("change", handleChange);
 };
