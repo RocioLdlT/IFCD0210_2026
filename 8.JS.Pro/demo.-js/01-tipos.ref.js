@@ -114,6 +114,14 @@ console.log("------------------------------------------------");
         },
     };
     console.log('Usando un método:', obj.greet());
+
+    const obj2 = {
+        name: "Pepe",
+        greet() {
+            return "Hola Mundo, soy " + this.name;
+        },
+    };
+    console.log('Usando un método:', obj2.greet());
     
     
     [].at(-1);
@@ -155,5 +163,12 @@ console.log("------------------------------------------------");
     console.log(n.toFixed(2));
 
     let big = 2n;
-    big.toString();
+    console.log(big.toString());
+    console.log(typeof big); // bigint
 }
+
+const arr = [1, 2, 3];
+arr.filter(() => true);
+const str = '';
+str.toUpperCase();
+str.x = 'test';

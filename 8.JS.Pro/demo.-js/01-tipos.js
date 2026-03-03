@@ -248,7 +248,7 @@
 
     const a = () => {
         console.log("Ejecutando a");
-        return "Pepe";
+        return Number("Pepe");
     };
     
     const b = () => {
@@ -258,12 +258,12 @@
 
     // A || B -> true si A es truthy o B es truthy, false en cualquier otro caso
     
-    const r = a() || b(); //  Ejecuta a, devuelve 'Pepe', no ejecuta b
+    const r = a() || b(); //  Ejecuta a, devuelve 'Pepe', no ejecuta b | paso false
     console.log({ r });
 
     // A && B -> true si A es truthy y B es truthy, false en cualquier otro caso
 
-    const r2 = a() && b() // Ejecuta a, devuelve 22, no ejecuta b
+    const r2 = a() && b() // Ejecuta a, devuelve 22, no ejecuta b | paso true
     console.log({ r2 });
 
     if (a() || b()) {
